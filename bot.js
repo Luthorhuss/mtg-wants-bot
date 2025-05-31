@@ -944,7 +944,7 @@ async function showHelpLegacy(message) {
 }
 
 // Login with your bot token
-const token = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE';
+const token = process.env.BOT_TOKEN;
 client.login(token);
 
 // Graceful shutdown
